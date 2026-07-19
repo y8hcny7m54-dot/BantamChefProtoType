@@ -1,0 +1,391 @@
+/* ====================================
+   RESPONSIVE STYLES
+==================================== */
+
+/* Large Tablets */
+
+@media(max-width:1200px){
+
+.hero h1{
+font-size:4rem;
+}
+
+.about{
+gap:40px;
+}
+
+.card-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+
+/* Tablets */
+
+@media(max-width:992px){
+
+.navbar{
+
+padding:18px 5%;
+
+}
+
+.hero h1{
+
+font-size:3.5rem;
+
+}
+
+.hero p{
+
+font-size:1.1rem;
+
+}
+
+.about{
+
+grid-template-columns:1fr;
+
+text-align:center;
+
+}
+
+.about-image{
+
+order:-1;
+
+}
+
+.features{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+.review-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.card-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.hours table{
+
+font-size:.95rem;
+
+}
+
+}
+
+
+/* Mobile */
+
+@media(max-width:768px){
+
+section{
+
+padding:70px 25px;
+
+}
+
+.navbar{
+
+padding:15px 20px;
+
+}
+
+.logo{
+
+font-size:1.7rem;
+
+}
+
+.nav-links{
+
+display:none;
+
+}
+
+.call-btn{
+
+display:none;
+
+}
+
+.hero{
+
+padding:20px;
+
+}
+
+.hero h1{
+
+font-size:2.8rem;
+
+line-height:1.1;
+
+}
+
+.hero p{
+
+font-size:1rem;
+
+margin-bottom:25px;
+
+}
+
+.hero-buttons{
+
+flex-direction:column;
+
+width:100%;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+width:100%;
+
+max-width:320px;
+
+margin:auto;
+
+text-align:center;
+
+}
+
+.hours-box{
+
+width:100%;
+
+margin-top:35px;
+
+}
+
+.features{
+
+grid-template-columns:1fr;
+
+gap:25px;
+
+}
+
+.feature{
+
+padding:30px;
+
+}
+
+.feature i{
+
+font-size:2.6rem;
+
+}
+
+.about h2{
+
+font-size:2.3rem;
+
+}
+
+.favorites h2,
+.reviews h2,
+.contact h2{
+
+font-size:2.3rem;
+
+}
+
+.food-card img{
+
+height:220px;
+
+}
+
+.review{
+
+padding:25px;
+
+}
+
+.hours table{
+
+display:block;
+
+overflow-x:auto;
+
+white-space:nowrap;
+
+}
+
+.footer-logo{
+
+font-size:2rem;
+
+}
+
+}
+
+
+/* Small Phones */
+
+@media(max-width:480px){
+
+.hero h1{
+
+font-size:2.2rem;
+
+}
+
+.hero p{
+
+font-size:.95rem;
+
+}
+
+.logo{
+
+font-size:1.5rem;
+
+}
+
+.about h2{
+
+font-size:2rem;
+
+}
+
+.favorites h2,
+.reviews h2,
+.contact h2{
+
+font-size:2rem;
+
+}
+
+.food-card h3{
+
+font-size:1.3rem;
+
+}
+
+.food-card p{
+
+font-size:.9rem;
+
+}
+
+.hours td{
+
+padding:15px;
+
+font-size:.9rem;
+
+}
+
+footer{
+
+padding:50px 20px;
+
+}
+
+}
+
+
+/* Ultra Wide */
+
+@media(min-width:1600px){
+
+.hero h1{
+
+font-size:6rem;
+
+}
+
+.hero p{
+
+font-size:1.5rem;
+
+}
+
+section{
+
+padding:120px 12%;
+
+}
+
+.card-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+.review-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+
+/* Landscape Phones */
+
+@media(max-height:600px){
+
+.hero{
+
+height:auto;
+
+padding:140px 20px 80px;
+
+}
+
+.hours-box{
+
+margin-top:25px;
+
+}
+
+}/* MENU PAGE */
+
+@media(max-width:768px){
+
+.menu-grid{
+
+grid-template-columns:1fr;
+
+}
+
+.menu-card{
+
+padding:20px;
+
+}
+
+.menu-section h2{
+
+font-size:2.2rem;
+
+}
+
+.small-hero{
+
+height:45vh;
+
+}
+
+.small-hero h1{
+
+font-size:3rem;
+
+}
+
+}
